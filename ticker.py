@@ -61,6 +61,13 @@ def getPrice():
 
     return fPrice
 
+def getEthPrice():
+    url = 'https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=' + currency
+    r =requests.get(url)
+
+    ethPrice=
+
+
 def main(stdscr):
         
     curses.curs_set(0)
